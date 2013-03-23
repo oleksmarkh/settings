@@ -1,0 +1,16 @@
+[VLC]
+sudo add-apt-repository ppa:n-muench/vlc
+sudo sudo apt-get install vlc
+
+[bluetooth]
+sudo nano /etc/rc.local
+rfkill block bluetooth
+
+gsettings set com.canonical.indicator.bluetooth visible false
+
+[music]
+sudo apt-get install python-mutagen
+find -iname '*.mp3' -print0 | xargs -0 mid3iconv -eCP1251 --remove-v1
+
+[download]
+wget -i $url --trust-server-names=on --restrict-file-names=nocontrol
