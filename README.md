@@ -1,4 +1,4 @@
 settings
 ========
 
-Bunch of settings files
+Bunch of settings and snippets files
