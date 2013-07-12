@@ -1,4 +1,4 @@
-# enables touchpad on fujitsu-lifebook-uh572 ##
+### enables touchpad on fujitsu-lifebook-uh572 ###
 
 see https://lifebook.ts.fujitsu.com/blog/blog/category/general/ubuntu-12-10-quantal-quetzal-on-fujitsu-lifebook-uh572/s
 
