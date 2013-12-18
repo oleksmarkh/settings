@@ -13,4 +13,4 @@
 [push]
     default = matching
 [branch]
-	autosetuprebase = always
+    autosetuprebase = always
