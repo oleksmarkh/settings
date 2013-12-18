@@ -12,3 +12,5 @@
     diff = always
 [push]
     default = matching
+[branch]
+	autosetuprebase = always
