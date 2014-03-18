@@ -1,0 +1,10 @@
+{
+  "font_size": 9,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "enable_tab_scrolling": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ]
+}
