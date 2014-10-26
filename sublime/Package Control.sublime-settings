@@ -1,0 +1,12 @@
+{
+    "installed_packages":
+    [
+        "Better CoffeeScript",
+        "Haml",
+        "HTML Mustache",
+        "Jade",
+        "ReactJS",
+        "Sass",
+        "Scheme"
+    ]
+}
