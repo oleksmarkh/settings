@@ -6,7 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-alias ll='ll -Ahv --group-directories-first'
+alias ll='ls -Alhv --group-directories-first'
 alias du='du -h'
 
 # colored prompt
