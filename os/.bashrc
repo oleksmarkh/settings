@@ -6,12 +6,11 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
+alias ll='ll -Ahv --group-directories-first'
+alias du='du -h'
 
 # colored prompt
 export PS1="\e[0;33m[\u@\h \W]\$ \e[m"
-
-# add RVM to PATH
-PATH=$PATH:$HOME/.rvm/bin
 
 # python virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
