@@ -1,6 +1,6 @@
 # settings
 
 
-Bunch of settings and snippets files
+settings, snippets, dotfiles
 
-[.bashrc](/os/.bashrc) inspired by http://tldp.org/LDP/abs/html/sample-bashrc.html
+[.bashrc](/dotfiles/.bashrc) inspired by http://tldp.org/LDP/abs/html/sample-bashrc.html
