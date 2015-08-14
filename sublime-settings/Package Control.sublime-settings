@@ -1,6 +1,7 @@
 {
     "installed_packages":
     [
+        "Bable",
         "Better CoffeeScript",
         "Haml",
         "HTML Mustache",
