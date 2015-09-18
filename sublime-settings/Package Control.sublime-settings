@@ -1,16 +1,22 @@
 {
-    "installed_packages":
-    [
-        "Bable",
-        "Better CoffeeScript",
-        "Haml",
-        "HTML Mustache",
-        "Jade",
-        "JavaScriptNext - ES6 Syntax",
-        "LESS",
-        "Oceanic Next Color Scheme",
-        "ReactJS",
-        "Sass",
-        "Scheme"
-    ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Better CoffeeScript",
+		"Haml",
+		"HTML Mustache",
+		"Jade",
+		"JavaScriptNext - ES6 Syntax",
+		"LESS",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"ReactJS",
+		"Sass",
+		"Scheme",
+		"Tomorrow Color Schemes"
+	]
 }
