@@ -7,7 +7,7 @@
         "json"
     ],
     "caret_style": "solid",
-    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+    "color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
     "detect_indentation": false,
     "enable_tab_scrolling": false,
     "ensure_newline_at_eof_on_save": true,
@@ -23,7 +23,7 @@
     ],
     "scroll_speed": 0,
     "tab_size": 4,
-    "theme": "SoDaReloaded.sublime-theme",
+    "theme": "SoDaReloaded Dark.sublime-theme",
     "translate_tabs_to_spaces": true,
     "trim_trailing_white_space_on_save": true
 }
