@@ -9,6 +9,7 @@ sudo pip install virtualenvwrapper
 
 ## manually
 
+* [Nodejs](https://github.com/nodesource/distributions#rpminstall)
 * [Chrome](http://www.if-not-true-then-false.com/2010/install-google-chrome-with-yum-on-fedora-red-hat-rhel/)
 * [Skype](http://www.if-not-true-then-false.com/2012/install-skype-on-fedora-centos-red-hat-rhel-scientific-linux-sl/)
 * [Sublime](https://gist.github.com/ahockersten/9781d1233e2bb125b458) with [Package Control](https://packagecontrol.io/installation)
