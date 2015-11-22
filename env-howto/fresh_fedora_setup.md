@@ -14,7 +14,7 @@ sudo pip install virtualenvwrapper
 * [Skype](http://www.if-not-true-then-false.com/2012/install-skype-on-fedora-centos-red-hat-rhel-scientific-linux-sl/)
 * [Sublime](https://gist.github.com/ahockersten/9781d1233e2bb125b458) with [Package Control](https://packagecontrol.io/installation)
 * [Dropbox](https://www.dropbox.com/install?os=lnx) - `.rpm` package
-* [VirtualBox](http://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/)
+* [VirtualBox](http://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/) with [Windows](https://dev.windows.com/en-us/microsoft-edge/tools/vms/linux/)
 
 
 # tweak
