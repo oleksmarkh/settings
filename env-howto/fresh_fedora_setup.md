@@ -3,7 +3,7 @@
 ## automatically
 
 ```bash
-sudo dnf install gnome-tweak-tool tilda tmux python-devel bpython nano vim-enhanced htop nmon httpie
+sudo dnf install gnome-tweak-tool tilda tmux python-devel bpython nano vim-enhanced htop nmon httpie pinta gimp
 sudo pip install virtualenvwrapper
 ```
 
