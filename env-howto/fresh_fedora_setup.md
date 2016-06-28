@@ -3,14 +3,14 @@
 ## automatically
 
 ```bash
-sudo dnf install gnome-tweak-tool tilda tmux \
+$ sudo dnf install gnome-tweak-tool tilda tmux xclip \
 python-devel bpython nano vim-enhanced \
 htop nmon httpie \
 pinta gimp
 
-sudo pip install virtualenvwrapper
+$ sudo pip install virtualenvwrapper
 
-sudo npm install -g npm-check
+$ sudo npm install -g npm-check
 ```
 
 ## manually

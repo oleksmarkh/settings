@@ -6,13 +6,13 @@ http://tuxguitar.com.ar/forum/4/939/fedora-and-tuxguitar/
 1. install [Tuxguitar](http://sourceforge.net/projects/tuxguitar/) itself
 
 ```bash
-sudo yum install tuxguitar
+$ sudo dnf install tuxguitar
 ```
 
 2. install [Timidity](http://timidity.sourceforge.net/), which is a midi converter
 
 ```bash
-sudo yum install timidity++
+$ sudo dnf install timidity++
 ```
 
 or another synthesizer of your choice
@@ -20,7 +20,7 @@ or another synthesizer of your choice
 3. check if Timidity is used with [aconnect](http://linuxcommand.org/man_pages/aconnect1.html), which is a sequencer connection manager
 
 ```bash
-aconnect -o
+$ aconnect -o
 ```
 
 it may tell that it's not:
@@ -45,7 +45,7 @@ client 129: 'TiMidity' [type=user]
 so if not yet, enable it:
 
 ```bash
-timidity -iA -Os &
+$ timidity -iA -Os &
 ```
 
 4. tell Tuxguitar about it
