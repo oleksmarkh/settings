@@ -30,6 +30,14 @@ $ sudo npm install -g npm-check
 * [.bashrc](https://github.com/oleksmarkh/settings/blob/master/os/.bashrc)
 * [.vimrc](https://github.com/oleksmarkh/settings/blob/master/vim/.vimrc)
 
+## inotify watchers
+
+```bash
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
+
+(see https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers)
+
 ## Tweak Tool
 
 * Power -> When Laptop Lid is Closed -> Don't suspend on lid close -> On
