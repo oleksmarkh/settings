@@ -6,11 +6,6 @@
     "installed_packages":
     [
         "Babel",
-        "Better CoffeeScript",
-        "Haml",
-        "HTML Mustache",
-        "JavaScriptNext - ES6 Syntax",
-        "LESS",
         "Oceanic Next Color Scheme",
         "Package Control",
         "Pug",
