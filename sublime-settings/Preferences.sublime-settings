@@ -15,7 +15,6 @@
     "chai",
     "cli",
     "codebase",
-    "collab",
     "composable",
     "config",
     "const",
@@ -40,7 +39,6 @@
     "http",
     "https",
     "i18n",
-    "influencers",
     "inline",
     "istanbul",
     "Jira",
@@ -93,23 +91,6 @@
   "ignored_packages":
   [
     "Vintage"
-  ],
-  "ignored_words":
-  [
-    "Collab",
-    "ideasboard",
-    "Karsten",
-    "myworkplace",
-    "Oleksii",
-    "pierone",
-    "Princiya",
-    "senza",
-    "sevsec",
-    "stups",
-    "subcampaign",
-    "yourturn",
-    "zalan",
-    "zalando"
   ],
   "rulers":
   [
