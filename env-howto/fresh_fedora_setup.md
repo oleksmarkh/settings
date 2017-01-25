@@ -10,7 +10,7 @@ pinta gimp
 
 $ sudo pip install virtualenvwrapper
 
-$ sudo npm install -g npm-check
+$ sudo npm install -g tldr
 ```
 
 ## manually
