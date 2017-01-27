@@ -12,6 +12,7 @@ fi
 alias ll='ls -Alhv --group-directories-first'
 alias du='du -h'
 alias tree='tree -C --dirsfirst'
+alias grep='grep --color'
 
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\(\1\)/'
