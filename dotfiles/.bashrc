@@ -2,7 +2,7 @@
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
-    . /etc/bashrc
+  . /etc/bashrc
 fi
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
@@ -14,8 +14,16 @@ alias du='du -h'
 alias tree='tree -C --dirsfirst'
 alias grep='grep --color'
 
-parse_git_branch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\(\1\)/'
+function parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\(\1\)/'
+}
+
+function video2gif() {
+  ffmpeg -y -i "${1}" -vf fps=${3:-10},scale=${2:-1024}:-1:flags=lanczos,palettegen "${1}.png"
+  ffmpeg -i "${1}" -i "${1}.png" -filter_complex "fps=${3:-10},scale=${2:-1024}:-1:flags=lanczos[x];[x][1:v]paletteuse" "${1}".tmp.gif
+  rm "${1}.png"
+  gifsicle -O3 --lossy=80 -o "${1}".gif "${1}".tmp.gif
+  rm "${1}".tmp.gif
 }
 
 # colored prompt
