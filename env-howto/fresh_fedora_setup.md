@@ -10,7 +10,7 @@ pinta gimp
 
 $ sudo pip install virtualenvwrapper
 
-$ sudo npm install -g tldr
+$ sudo npm install -g tldr gtop
 ```
 
 ## manually
