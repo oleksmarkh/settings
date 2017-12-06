@@ -1,17 +1,16 @@
 {
-    "bootstrapped": true,
-    "in_process_packages":
-    [
-    ],
-    "installed_packages":
-    [
-        "Babel",
-        "Oceanic Next Color Scheme",
-        "Package Control",
-        "Pug",
-        "ReactJS",
-        "Sass",
-        "Scheme",
-        "Theme - SoDaReloaded"
-    ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Package Control",
+		"Sass",
+		"ShaderLanguages",
+		"Stylefmt",
+		"Theme - SoDaReloaded",
+		"TypeScript"
+	]
 }
