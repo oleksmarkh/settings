@@ -163,6 +163,7 @@
   [
     120
   ],
+  "scroll_past_end": true,
   "scroll_speed": 0,
   "show_definitions": false,
   "spell_check": true,
