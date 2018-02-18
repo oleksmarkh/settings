@@ -152,6 +152,7 @@
     ".git",
     ".hg",
     "CVS",
+    ".awcache",
     "__pycache__"
   ],
   "font_size": 12,
