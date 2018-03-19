@@ -1,8 +1,13 @@
 # .bashrc
 
-# Source global definitions
+# source global definitions
 if [ -f /etc/bashrc ]; then
   . /etc/bashrc
+fi
+
+# requires "brew install git && brew install bash-completion"
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
 fi
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
@@ -36,4 +41,7 @@ export PS1='\[\e[01;30m\]\t`if [ $? = 0 ]; then echo "\[\e[32m\] ✔ "; else ech
 # source /usr/bin/virtualenvwrapper.sh
 
 # see: https://www.reddit.com/r/Fedora/comments/37n9vi/vte/
-unset PROMPT_COMMAND
+# unset PROMPT_COMMAND
+
+# requires "brew install nvm"
+source $(brew --prefix nvm)/nvm.sh
