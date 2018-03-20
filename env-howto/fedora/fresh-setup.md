@@ -22,13 +22,7 @@ $ sudo npm install -g tldr gtop
 * [Dropbox](https://www.dropbox.com/install?os=lnx) - `.rpm` package
 * [VirtualBox](http://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/) with [Windows](https://dev.windows.com/en-us/microsoft-edge/tools/vms/linux/)
 
-
 # tweak
-
-## dotfiles
-
-* [.bashrc](https://github.com/oleksmarkh/settings/blob/master/os/.bashrc)
-* [.vimrc](https://github.com/oleksmarkh/settings/blob/master/vim/.vimrc)
 
 ## inotify watchers
 
