@@ -44,4 +44,5 @@ export PS1='\[\e[01;30m\]\t`if [ $? = 0 ]; then echo "\[\e[32m\] ✔ "; else ech
 # unset PROMPT_COMMAND
 
 # requires "brew install nvm"
+export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh
