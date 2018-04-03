@@ -45,9 +45,11 @@ $ brew install yarn --without-node
       * "Input Sources" <- `⌘Space`
       * "Spotlight" <- `⌃⌘Space`
   * "Input Sources"
-    * - "U.S."
-    * + "British"
-    * + "Ukrainian - PC" 🇺🇦 (or even [`bandera-layout`](https://github.com/muromec/bandera-layout))
+    * Languages
+      * - "U.S."
+      * + "British"
+      * + "Ukrainian - PC" 🇺🇦 (or even [`bandera-layout`](https://github.com/muromec/bandera-layout))
+    * "Automatically switch to a document's input source" <- on
 * "Trackpad -> Point & Click"
   * "Look up & data detectors"<- off
   * "Tap to click" <- on
