@@ -2,11 +2,22 @@
 
 ## automatically
 
-[`brew`](https://brew.sh)
+1. [`brew`](https://brew.sh)
 
 ```bash
-$ brew cask install iterm2 google-chrome firefox sublime-text postman
-$ brew install tmux bash bash-completion coreutils tree git httpie nvm nginx
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+2. Packages (apps, utils etc.)
+
+```bash
+$ brew cask install iterm2 google-chrome firefox sublime-text postman java
+$ brew install tmux bash bash-completion coreutils tree git python httpie nvm nginx
+```
+
+3. Node
+
+```bash
 $ mkdir ~/.nvm
 $ nvm install node
 $ brew install yarn --without-node
@@ -48,7 +59,7 @@ $ brew install yarn --without-node
     * Languages
       * - "U.S."
       * + "British"
-      * + "Ukrainian - PC" 🇺🇦 (or even [`bandera-layout`](https://github.com/muromec/bandera-layout))
+      * + "Ukrainian - PC" 🇺🇦 (or better [`bandera-layout`](https://github.com/muromec/bandera-layout))
     * "Automatically switch to a document's input source" <- on
 * "Trackpad -> Point & Click"
   * "Look up & data detectors"<- off
