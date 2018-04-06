@@ -40,6 +40,9 @@ $ brew install yarn --without-node
   * "General"
     * "Require password" <- immediately
     * "Show a message when the screen is locked" <- off
+  * "Privacy -> Location Services"
+    * "Weather" <- on
+    * "System Services -> Details... -> Significant Locations" <- off
 * "Displays"
   * "Display -> Automatically adjust brightness" <- off
   * "Night Shift -> Schedule" <- "Sunset to Sunrise"
