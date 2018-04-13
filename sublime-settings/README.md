@@ -1,2 +1,2 @@
-`~/.config/sublime-text-3/Packages/User/` on Fedora
-`~/Library/Application Support/Sublime Text 3/Packages/User/` on MacOS
+* Fedora: `~/.config/sublime-text-3/Packages/User/`
+* macOS: `~/Library/Application Support/Sublime Text 3/Packages/User/`

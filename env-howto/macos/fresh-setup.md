@@ -2,7 +2,7 @@
 
 ## automatically
 
-1. Homebrew
+### Homebrew
 
 See [`brew`](https://brew.sh).
 
@@ -10,7 +10,7 @@ See [`brew`](https://brew.sh).
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-2. Packages (apps, utils etc.)
+### packages (apps, utils etc.)
 
 See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com/) (HTTP GUI client).
 
@@ -19,7 +19,7 @@ $ brew cask install iterm2 google-chrome firefox sublime-text postman java
 $ brew install tmux bash bash-completion coreutils tree git python httpie nvm nginx
 ```
 
-3. Node
+### Node
 
 ```bash
 $ mkdir ~/.nvm
@@ -27,7 +27,7 @@ $ nvm install node
 $ brew install yarn --without-node
 ```
 
-4. Python
+### Python
 
 See [`rainbowstream`](https://github.com/orakaro/rainbowstream) (Twitter CLI client).
 
@@ -38,6 +38,10 @@ $ sudo pip3 install rainbowstream
 ## manually
 
 * [Sublime Text Package Control](https://packagecontrol.io/installation)
+
+# setup
+
+* [GitHub (SSH keys)](https://help.github.com/articles/connecting-to-github-with-ssh)
 
 # tweak
 
@@ -116,7 +120,3 @@ $ sudo pip3 install rainbowstream
       * "⌥→"
         * "Action" <- "Send Escape Sequence"
         * "Esc+" <- "f"
-
-# setup
-
-* [GitHub (SSH keys)](https://help.github.com/articles/connecting-to-github-with-ssh)
