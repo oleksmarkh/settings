@@ -2,13 +2,17 @@
 
 ## automatically
 
-1. [`brew`](https://brew.sh)
+1. Homebrew
+
+See [`brew`](https://brew.sh).
 
 ```bash
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 2. Packages (apps, utils etc.)
+
+See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com/) (HTTP GUI client).
 
 ```bash
 $ brew cask install iterm2 google-chrome firefox sublime-text postman java
@@ -21,6 +25,14 @@ $ brew install tmux bash bash-completion coreutils tree git python httpie nvm ng
 $ mkdir ~/.nvm
 $ nvm install node
 $ brew install yarn --without-node
+```
+
+4. Python
+
+See [`rainbowstream`](https://github.com/orakaro/rainbowstream) (Twitter CLI client).
+
+```bash
+$ sudo pip3 install rainbowstream
 ```
 
 ## manually
