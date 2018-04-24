@@ -35,10 +35,6 @@ See [`rainbowstream`](https://github.com/orakaro/rainbowstream) (Twitter CLI cli
 $ sudo pip3 install rainbowstream
 ```
 
-## manually
-
-* [Sublime Text Package Control](https://packagecontrol.io/installation)
-
 # setup
 
 * [GitHub (SSH keys)](https://help.github.com/articles/connecting-to-github-with-ssh)
