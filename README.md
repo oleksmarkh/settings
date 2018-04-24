@@ -8,6 +8,7 @@ Some highlights:
 
 * macOS [utils and tweaks](/env-howto/macos/fresh-setup.md)
 * Sublime Text [preferences](/sublime-settings/README.md)
+* [dotfiles](/dotfiles/README.md)
 
 Notes:
 
