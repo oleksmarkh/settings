@@ -1,5 +1,9 @@
 # install
 
+## manually
+
+* [Logitech Control Center](http://support.logitech.com/en_us/software/logitech-control-center-for-macintosh-os-x)
+
 ## automatically
 
 ### Homebrew
