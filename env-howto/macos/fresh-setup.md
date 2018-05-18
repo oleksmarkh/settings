@@ -16,7 +16,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 ### packages (apps, utils etc.)
 
-See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com/) (HTTP GUI client).
+See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com) (HTTP GUI client).
 
 ```bash
 $ brew cask install iterm2 google-chrome firefox sublime-text postman java
@@ -74,6 +74,10 @@ $ sudo pip3 install rainbowstream
         * "Show Dashboard" <- off
       * "Input Sources" <- `⌘Space`
       * "Spotlight" <- `⌃⌘Space`
+  * "Text"
+    * "Correct spelling automatically" <- off
+    * "Capitalize words automatically" <- off
+    * "Add period with double space" <- off
   * "Input Sources"
     * Languages
       * - "U.S."
@@ -110,7 +114,7 @@ $ sudo pip3 install rainbowstream
     * "Basic Colors"
       * "Background" <- `#112233`
   * "Text"
-    * "Change Font" <- "12pt Menlo Regular"
+    * "Change Font" <- "14pt Menlo Regular"
   * "Keys" (see [Use ⌥ ← and ⌥→ to jump forwards / backwards words in iTerm 2, on OS X](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x))
     * "Left ⌥ Key" <- "Esc+"
     * "Key Mappings"
