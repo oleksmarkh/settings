@@ -14,7 +14,8 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-alias ll='gls -Alhv --group-directories-first' # "brew install coreutils"
+# "brew install coreutils" to have "gls" (GNU "ls" with extra flags)
+alias ll='gls -Alhv --group-directories-first'
 alias du='du -h'
 alias tree='tree -C --dirsfirst'
 alias grep='grep --color'
@@ -46,3 +47,7 @@ export PS1='\[\e[01;30m\]\t`if [ $? = 0 ]; then echo "\[\e[32m\] ✔ "; else ech
 # requires "brew install nvm"
 export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh
+
+# "openssl" brew formula is keg-only, which means it was not symlinked into /usr/local,
+# because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
+export PATH="/usr/local/opt/openssl/bin:$PATH"
