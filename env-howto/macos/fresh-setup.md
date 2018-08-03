@@ -19,7 +19,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com) (HTTP GUI client).
 
 ```bash
-$ brew cask install iterm2 google-chrome firefox sublime-text postman java
+$ brew cask install iterm2 google-chrome firefox sublime-text postman java android-file-transfer
 $ brew install tmux bash bash-completion coreutils tree git python httpie nvm nginx
 ```
 
