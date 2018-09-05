@@ -10,6 +10,7 @@
     "allexport",
     "antialiasing",
     "api",
+    "apis",
     "app",
     "args",
     "arraybuffer",
@@ -47,6 +48,7 @@
     "coord",
     "Coursera",
     "css",
+    "csv",
     "ctx",
     "d3",
     "daemonized",
@@ -83,6 +85,7 @@
     "foobar",
     "fov",
     "frag",
+    "Freemium",
     "frontend",
     "fs",
     "geckodriver",
@@ -189,6 +192,7 @@
     "osm",
     "p2d",
     "param",
+    "params",
     "parens",
     "pdf",
     "pep8",
@@ -218,6 +222,7 @@
     "qa",
     "quadtree",
     "querystring",
+    "Quickstart",
     "ramda",
     "readme",
     "rebase",
@@ -327,6 +332,10 @@
   "ignored_packages":
   [
     "Vintage"
+  ],
+  "install_prereleases":
+  [
+    "Elm Language Support"
   ],
   "node_path": "/Users/markhovs/.nvm/versions/node/v10.7.0/bin/node",
   "rulers":
