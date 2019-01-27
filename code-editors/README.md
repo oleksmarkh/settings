@@ -1,3 +1,7 @@
+# Code editors
+
+## Sublime Text
+
 Package Control [installation](https://packagecontrol.io/installation).
 
 Config location:
@@ -7,3 +11,9 @@ Config location:
 
 Note the `node_path` option in `Preferences.sublime-settings`.
 It SHOULD point to the actual node binary (version is important) for TypeScript plugin to work correctly.
+
+## VSCode
+
+Config location:
+
+* macOS: `~/Library/Application Support/Code/User/`
