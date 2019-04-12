@@ -28,15 +28,6 @@ $ brew install tmux bash bash-completion coreutils tree git python httpie nvm ng
 ```bash
 $ mkdir ~/.nvm
 $ nvm install node
-$ brew install yarn --without-node
-```
-
-### Python
-
-See [`rainbowstream`](https://github.com/orakaro/rainbowstream) (Twitter CLI client).
-
-```bash
-$ sudo pip3 install rainbowstream
 ```
 
 # setup
