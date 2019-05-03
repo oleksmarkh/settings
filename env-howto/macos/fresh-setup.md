@@ -4,15 +4,11 @@
 
 * [Logitech Control Center](http://support.logitech.com/en_us/software/logitech-control-center-for-macintosh-os-x)
 
-## automatically
+## semi-automatically
 
 ### Homebrew
 
-See [`brew`](https://brew.sh).
-
-```bash
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+Follow [`brew`](https://brew.sh) installation instructions.
 
 ### packages (apps, utils etc.)
 
@@ -20,10 +16,16 @@ See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getp
 
 ```bash
 $ brew cask install iterm2 google-chrome firefox sublime-text postman java android-file-transfer
-$ brew install tmux bash bash-completion coreutils tree git python httpie nvm nginx
+$ brew install tmux bash bash-completion coreutils tree git python httpie nginx
 ```
 
+### Command Line Tools
+
+Follow ["How to Install Command Line Tools in Mac OS X (Without Xcode)"](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x).
+
 ### Node
+
+Follow [`nvm`](https://github.com/nvm-sh/nvm) installation instructions.
 
 ```bash
 $ mkdir ~/.nvm
@@ -37,6 +39,8 @@ $ nvm install node
 # tweak
 
 ## System Preferences
+
+This section is opinionated but tries to turn default UX into a usable state.
 
 * "General" <- almost everything :)
 * "Dock"
