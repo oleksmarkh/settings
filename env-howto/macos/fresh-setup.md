@@ -19,6 +19,17 @@ $ brew cask install iterm2 google-chrome firefox sublime-text postman java andro
 $ brew install tmux bash bash-completion coreutils tree git python httpie nginx
 ```
 
+Keeping packages up to date:
+
+```bash
+$ brew outdated
+$ brew update
+$ brew upgrade
+
+$ brew cask outdated
+$ brew cask upgrade
+```
+
 ### Command Line Tools
 
 Follow ["How to Install Command Line Tools in Mac OS X (Without Xcode)"](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x).
