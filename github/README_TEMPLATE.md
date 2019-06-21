@@ -20,7 +20,7 @@
 
 {short description}
 
-## Motivation
+## Motivation/goals
 
 {Why does it exist? What problem does it solve? For whom is it built? Prior art. Inspiration.}
 
@@ -30,11 +30,15 @@
 
 ## How does it look like?
 
-{a screenshot/gif}
+{a screenshot/gif, API examples}
 
 ## How to run it?
 
 {installation instructions}
+
+## Design
+
+{architectural overview}
 
 ## What makes it possible?
 
