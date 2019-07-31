@@ -1,3 +1,5 @@
+Apparently, this format is already *old*, see [About issue and pull request templates](https://help.github.com/en/articles/about-issue-and-pull-request-templates).
+
 :bicyclist: __Motivation__
 
 (why?)
