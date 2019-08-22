@@ -52,3 +52,7 @@ source $(brew --prefix nvm)/nvm.sh
 # "openssl" brew formula is keg-only, which means it was not symlinked into /usr/local,
 # because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
 export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# see: https://github.com/tmux/tmux/issues/328#issuecomment-251986075
+export LC_ALL=en_GB.UTF-8
+export LANG=en_GB.UTF-8
