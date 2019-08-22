@@ -21,8 +21,8 @@ Some highlights:
 
 ## Resources
 
-* [`.bashrc`](/dotfiles/.bashrc) is inspired by [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/sample-bashrc.html)
-* [`.tmux.conf`](/dotfiles/.tmux.conf) is partially taken from [Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf](http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf)
+* `.bashrc` is inspired by [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/sample-bashrc.html)
+* `.tmux.conf` is partially taken from [Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf](http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf)
 
 [license-image]: https://img.shields.io/github/license/oleksmarkh/settings.svg?style=flat-square
 [license-url]: https://github.com/oleksmarkh/settings/blob/master/LICENSE
