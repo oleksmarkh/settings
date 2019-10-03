@@ -56,6 +56,7 @@ This section is opinionated but tries to turn default UX into a usable state.
 * "General" <- almost everything :)
 * "Dock"
   * "Automatically hide and show the Dock" <- on
+  * "Show recent applications in Dock" <- off
 * "Mission Control"
   * "Automatically rearrange Spaces" <- off
 * "Security & Privacy"
