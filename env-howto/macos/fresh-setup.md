@@ -44,6 +44,15 @@ $ mkdir ~/.nvm
 $ nvm install node
 ```
 
+### Python
+
+Follow [`virtualenvwrapper`](https://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation) installation instructions.
+
+```bash
+$ pip install virtualenv
+$ pip install virtualenvwrapper
+```
+
 # setup
 
 * [GitHub (SSH keys)](https://help.github.com/articles/connecting-to-github-with-ssh)
