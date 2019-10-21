@@ -3,7 +3,6 @@
 ## manually
 
 * [Logitech Control Center](http://support.logitech.com/en_us/software/logitech-control-center-for-macintosh-os-x)
-* [MusicBrainz Picard](https://picard.musicbrainz.org/)
 
 ## semi-automatically
 
@@ -13,22 +12,11 @@ Follow [`brew`](https://brew.sh) installation instructions.
 
 ### packages (apps, utils etc.)
 
-See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com) (HTTP GUI client).
+See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com) (HTTP GUI client), [MusicBrainz Picard](https://picard.musicbrainz.org/) (music tagger).
 
 ```bash
-$ brew cask install iterm2 google-chrome firefox sublime-text postman java android-file-transfer
+$ brew cask install iterm2 google-chrome firefox sublime-text postman java android-file-transfer musicbrainz-picard
 $ brew install tmux bash bash-completion coreutils tree git python httpie nginx
-```
-
-Keeping packages up to date:
-
-```bash
-$ brew outdated
-$ brew update
-$ brew upgrade
-
-$ brew cask outdated
-$ brew cask upgrade
 ```
 
 ### Command Line Tools
