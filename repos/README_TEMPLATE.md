@@ -21,43 +21,36 @@
 {short description}
 
 ## Motivation/goals
-
 {Why does it exist? What problem does it solve? For whom is it built? Prior art. Inspiration.}
 
 ## Status
-
 {*draft*, *in progress*, *experimental*, *ready*, *abandoned*, *on hold*, etc.}
 
 ## How does it look like?
-
 {a screenshot/gif, API examples}
 
 ## How to run it?
-
 {installation instructions}
 
-## Design
+## Terminology
+{acronyms, terms}
 
+## Design
 {architectural overview}
 
 ## What makes it possible?
-
 {list: deps, dev deps, data sets, etc.}
 
 ## Development setup
-
 {env (isolation, vars), installing/configuring deps, testing, deployment}
 
 ## Further evolvement
-
 {plans, main features yet to implement}
 
 ## Resources
-
 {links to external docs and other places}
 
 ## Invitation for contributors
-
 {only if status is active}
 
 [license-image]: https://img.shields.io/github/license/oleksmarkh/{name}.svg?style=flat-square
