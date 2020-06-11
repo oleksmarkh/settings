@@ -4,10 +4,6 @@
 
 Configuration 'n' snippets.
 
-## Motivation/goals
-
-Keeping pretty much all settings under a single repo enables faster setups.
-
 ## Status
 
 Permanently *in progress*.

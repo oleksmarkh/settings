@@ -18,10 +18,7 @@
   [![test coverage][test-coverage-image]][test-coverage-url]
   ![code size][code-size-image]
 
-{short description}
-
-## Motivation/goals
-{Why does it exist? What problem does it solve? For whom is it built? Prior art. Inspiration.}
+{short description, project goals}
 
 ## Status
 {*draft*, *in progress*, *experimental*, *ready*, *abandoned*, *on hold*, etc.}
