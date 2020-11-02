@@ -13,7 +13,6 @@
 # {Name}
 
   [![license][license-image]][license-url]
-  [![travis][travis-image]][travis-url]
   [![deps][deps-image]][deps-url]
   [![test coverage][test-coverage-image]][test-coverage-url]
   ![code size][code-size-image]
@@ -52,8 +51,6 @@
 
 [license-image]: https://img.shields.io/github/license/oleksmarkh/{name}.svg?style=flat-square
 [license-url]: https://github.com/oleksmarkh/{name}/blob/master/LICENSE
-[travis-image]: https://img.shields.io/travis/oleksmarkh/{name}/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/oleksmarkh/{name}
 [deps-image]: https://img.shields.io/david/oleksmarkh/{name}.svg?style=flat-square
 [deps-url]: https://david-dm.org/oleksmarkh/{name}
 [test-coverage-image]: https://img.shields.io/coveralls/github/oleksmarkh/{name}.svg?style=flat-square

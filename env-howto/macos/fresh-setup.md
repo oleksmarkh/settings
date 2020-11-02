@@ -16,7 +16,7 @@ See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getp
 
 ```bash
 $ brew cask install iterm2 google-chrome firefox sublime-text postman java android-file-transfer musicbrainz-picard
-$ brew install tmux bash bash-completion coreutils tree git python httpie nginx
+$ brew install tmux bash bash-completion coreutils tree git python pyenv httpie nginx
 ```
 
 ### Command Line Tools
@@ -34,12 +34,7 @@ $ nvm install node
 
 ### Python
 
-Follow [`virtualenvwrapper`](https://virtualenvwrapper.readthedocs.io/en/latest/install.html#basic-installation) installation instructions.
-
-```bash
-$ pip install virtualenv
-$ pip install virtualenvwrapper
-```
+[`pyenv`](https://github.com/pyenv/pyenv/), [`poetry`](https://python-poetry.org/docs/basic-usage/), [`pycodestyle`](https://pycodestyle.readthedocs.io/en/latest/), [`pytest`](https://pytest.org/en/latest/).
 
 # setup
 
