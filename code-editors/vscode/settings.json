@@ -1,13 +1,17 @@
-// Place your settings in this file to overwrite the default settings
 {
     "editor.cursorBlinking": "solid",
+    "editor.detectIndentation": false,
+    "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
+    "editor.mouseWheelScrollSensitivity": 0,
+    "editor.multiCursorModifier": "ctrlCmd",
     "editor.rulers": [120],
+    "editor.scrollBeyondLastLine": true,
+    "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
-    "explorer.autoReveal": false,
+    "editor.wordWrap": "on",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "git.enabled": false,
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": true,
+    "workbench.colorTheme": "Eva Dark",
+    "workbench.startupEditor": "none"
 }
