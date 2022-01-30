@@ -43,10 +43,16 @@ export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/python-projects
 source /usr/local/bin/virtualenvwrapper.sh
 
-# see: https://www.reddit.com/r/Fedora/comments/37n9vi/vte/
-# unset PROMPT_COMMAND
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
 
-# requires "brew install nvm"
+# poetry
+export PATH="/Users/markhovs/.local/bin:$PATH"
+
+# nvm
 export NVM_DIR="$HOME/.nvm"
 source $(brew --prefix nvm)/nvm.sh
 
