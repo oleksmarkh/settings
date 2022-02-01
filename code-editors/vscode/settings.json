@@ -1,17 +1,33 @@
 {
-    "editor.cursorBlinking": "solid",
-    "editor.detectIndentation": false,
-    "editor.formatOnPaste": true,
+    "workbench.startupEditor": "none",
     "editor.minimap.enabled": false,
-    "editor.mouseWheelScrollSensitivity": 0,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.rulers": [120],
-    "editor.scrollBeyondLastLine": true,
-    "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
-    "editor.wordWrap": "on",
+    "editor.rulers": [
+      120
+    ],
     "files.insertFinalNewline": true,
+    "editor.scrollBeyondLastLine": true,
+    "editor.mouseWheelScrollSensitivity": 0,
     "files.trimTrailingWhitespace": true,
+    "editor.wordWrap": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
     "workbench.colorTheme": "Eva Dark",
-    "workbench.startupEditor": "none"
+    "editor.cursorBlinking": "solid",
+    "cSpell.userWords": [
+      "buildah",
+      "createdb",
+      "fastapi",
+      "Markhovskyi",
+      "Oleksii",
+      "podman",
+      "psql",
+      "pycodestyle",
+      "pyenv",
+      "pytest",
+      "sqlalchemy",
+      "TSRANGE",
+      "virtualenvs"
+    ],
+    "breadcrumbs.enabled": false
 }
