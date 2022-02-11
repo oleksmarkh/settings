@@ -15,7 +15,7 @@ Follow [`brew`](https://brew.sh) installation instructions.
 See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com) (HTTP GUI client), [MusicBrainz Picard](https://picard.musicbrainz.org/) (music tagger).
 
 ```bash
-$ brew cask install iterm2 google-chrome firefox sublime-text postman java android-file-transfer musicbrainz-picard
+$ brew install --cask iterm2 google-chrome firefox sublime-text visual-studio-code postman java android-file-transfer musicbrainz-picard
 $ brew install tmux bash bash-completion coreutils tree git python pyenv httpie nginx
 ```
 
@@ -82,7 +82,7 @@ This section is opinionated but tries to turn default UX into a usable state.
     * Languages
       * - "U.S."
       * + "British"
-      * + "Ukrainian - PC" 🇺🇦 (or better [`bandera-layout`](https://github.com/muromec/bandera-layout))
+      * + "Ukrainian" 🇺🇦 (or better [`bandera-layout`](https://github.com/muromec/bandera-layout))
     * "Automatically switch to a document's input source" <- on
 * "Trackpad -> Point & Click"
   * "Look up & data detectors"<- off

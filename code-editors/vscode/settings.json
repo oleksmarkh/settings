@@ -9,16 +9,21 @@
     "editor.scrollBeyondLastLine": true,
     "editor.mouseWheelScrollSensitivity": 0,
     "files.trimTrailingWhitespace": true,
-    "editor.wordWrap": "on",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "workbench.colorTheme": "Eva Dark",
     "editor.cursorBlinking": "solid",
     "cSpell.userWords": [
+      "2F",
+      "asyncio",
+      "beautifulsoup",
       "buildah",
       "createdb",
+      "deduplication",
       "fastapi",
+      "idempotence",
       "Markhovskyi",
+      "multithreading",
       "Oleksii",
       "podman",
       "psql",
@@ -29,5 +34,10 @@
       "TSRANGE",
       "virtualenvs"
     ],
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
+    "debug.console.fontSize": 13,
+    "scm.diffDecorations": "gutter",
+    "scm.diffDecorationsGutterWidth": 2
 }
