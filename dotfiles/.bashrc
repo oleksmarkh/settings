@@ -5,9 +5,14 @@ if [ -f /etc/bashrc ]; then
   . /etc/bashrc
 fi
 
+# brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # requires "brew install git && brew install bash-completion"
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
-  . $(brew --prefix)/etc/bash_completion
+    . $(brew --prefix)/etc/bash_completion
 fi
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
@@ -50,15 +55,14 @@ eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 
 # poetry
-export PATH="/Users/markhovs/.local/bin:$PATH"
+export PATH="/Users/oleksmarkh/.local/bin:$PATH"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
-source $(brew --prefix nvm)/nvm.sh
+source $NVM_DIR/nvm.sh
 
-# "openssl" brew formula is keg-only, which means it was not symlinked into /usr/local,
-# because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries
-export PATH="/usr/local/opt/openssl/bin:$PATH"
+# npm
+source <(npm completion)
 
 # see: https://github.com/tmux/tmux/issues/328#issuecomment-251986075
 export LC_ALL=en_GB.UTF-8

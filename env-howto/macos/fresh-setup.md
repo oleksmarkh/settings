@@ -1,9 +1,5 @@
 # install
 
-## manually
-
-* [Logitech Control Center](http://support.logitech.com/en_us/software/logitech-control-center-for-macintosh-os-x)
-
 ## semi-automatically
 
 ### Homebrew
@@ -15,8 +11,8 @@ Follow [`brew`](https://brew.sh) installation instructions.
 See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com) (HTTP GUI client), [MusicBrainz Picard](https://picard.musicbrainz.org/) (music tagger).
 
 ```bash
-$ brew install --cask iterm2 google-chrome firefox sublime-text visual-studio-code postman java android-file-transfer musicbrainz-picard
-$ brew install tmux bash bash-completion coreutils tree git python pyenv httpie nginx
+$ brew install --cask iterm2 google-chrome firefox sublime-text visual-studio-code postman android-file-transfer musicbrainz-picard
+$ brew install tmux bash bash-completion coreutils tree git python pyenv httpie nginx java
 ```
 
 ### Command Line Tools
@@ -56,8 +52,8 @@ This section is opinionated but tries to turn default UX into a usable state.
   * "General"
     * "Require password" <- immediately
     * "Show a message when the screen is locked" <- off
+  * "FileVault" <- on
   * "Privacy -> Location Services"
-    * "Weather" <- on
     * "System Services -> Details... -> Significant Locations" <- off
 * "Displays"
   * "Display -> Automatically adjust brightness" <- off
@@ -66,7 +62,6 @@ This section is opinionated but tries to turn default UX into a usable state.
   * "Keyboard"
     * "Use F1, F2, etc. keys as standard function keys on external keyboards" <- on
     * "Modifier Keys... -> Caps Lock" <- `^` Control
-    * "Customize Control Strip..."
     * "Shortcuts"
       * "Mission Control" (contradicts with Sublime Text, e.g. multicursor)
         * "Mission Control" <- off
@@ -80,9 +75,8 @@ This section is opinionated but tries to turn default UX into a usable state.
     * "Add period with double space" <- off
   * "Input Sources"
     * Languages
-      * - "U.S."
-      * + "British"
-      * + "Ukrainian" 🇺🇦 (or better [`bandera-layout`](https://github.com/muromec/bandera-layout))
+      * "British"
+      * "Ukrainian" 🇺🇦 (or better [`bandera-layout`](https://github.com/muromec/bandera-layout))
     * "Automatically switch to a document's input source" <- on
 * "Trackpad -> Point & Click"
   * "Look up & data detectors"<- off
@@ -91,24 +85,24 @@ This section is opinionated but tries to turn default UX into a usable state.
   * "Silent clicking" <- on
   * "Force Click and haptic feedback" <- off
 * "Siri"
-  * "Enable Siri" <- off
-* "Date & Time"
-  * "Clock -> Date options -> Show date" <- on
+  * "Enable Ask Siri" <- off
 * "Accessibility"
   * "Display -> Reduce motion" <- on :star:
 
 ## Finder
 
 * "Preferences"
-  * "General -> New Finder windows show" <- home
+  * "General -> New Finder windows show" <- "Downloads"
   * "Sidebar" <- rearrange
   * "Advanced"
     * "Show all filename extension" <- on
-    * "Keep folders on top when sorting by name" <- on
+    * "Keep folders on top -> In windows when sorting by name" <- on
 
 ## iTerm2
 
 * "Preferences -> Profiles"
+  * "General"
+    * "Command" <- `/opt/homebrew/bin/bash`
   * "Colors"
     * "Color Presets..." <- "Dark Background"
     * "Basic Colors"
