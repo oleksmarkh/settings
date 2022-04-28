@@ -12,8 +12,13 @@ See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getp
 
 ```bash
 $ brew install --cask iterm2 google-chrome firefox sublime-text visual-studio-code postman android-file-transfer musicbrainz-picard
-$ brew install tmux bash bash-completion coreutils tree git python pyenv httpie nginx java
+$ brew install tmux coreutils tree git python pyenv httpie nginx java
 ```
+
+### zsh
+
+* Follow ["Basic Installation"](https://github.com/ohmyzsh/ohmyzsh#basic-installation).
+* Edit a theme to [show full path](https://blaisdell.dev/zsh-full-file-path/).
 
 ### Command Line Tools
 
@@ -48,6 +53,8 @@ This section is opinionated but tries to turn default UX into a usable state.
   * "Show recent applications in Dock" <- off
 * "Mission Control"
   * "Automatically rearrange Spaces" <- off
+* Spotlight
+  * Search Results <- only "Applications" and "Calculator"
 * "Security & Privacy"
   * "General"
     * "Require password" <- immediately
@@ -76,7 +83,7 @@ This section is opinionated but tries to turn default UX into a usable state.
   * "Input Sources"
     * Languages
       * "British"
-      * "Ukrainian" 🇺🇦 (or better [`bandera-layout`](https://github.com/muromec/bandera-layout))
+      * "Ukrainian" 🇺🇦
     * "Automatically switch to a document's input source" <- on
 * "Trackpad -> Point & Click"
   * "Look up & data detectors"<- off
@@ -100,21 +107,22 @@ This section is opinionated but tries to turn default UX into a usable state.
 
 ## iTerm2
 
-* "Preferences -> Profiles"
-  * "General"
-    * "Command" <- `/opt/homebrew/bin/bash`
-  * "Colors"
-    * "Color Presets..." <- "Dark Background"
-    * "Basic Colors"
-      * "Background" <- `#112233`
-  * "Text"
-    * "Change Font" <- "14pt Menlo Regular"
-  * "Keys" (see [Use ⌥ ← and ⌥→ to jump forwards / backwards words in iTerm 2, on OS X](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x))
-    * "Left ⌥ Key" <- "Esc+"
-    * "Key Mappings"
-      * "⌥←"
-        * "Action" <- "Send Escape Sequence"
-        * "Esc+" <- "b"
-      * "⌥→"
-        * "Action" <- "Send Escape Sequence"
-        * "Esc+" <- "f"
+* "Preferences"
+  * "General -> Selection"
+    * "Applications in terminal may access clipboard" <- on
+  * "Profiles"
+    * "Colors"
+      * "Color Presets..." <- "Dark Background"
+      * "Basic Colors"
+        * "Background" <- `#112233`
+    * "Text"
+      * "Change Font" <- "14pt Menlo Regular"
+    * "Keys" (see [Use ⌥ ← and ⌥→ to jump forwards / backwards words in iTerm 2, on OS X](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x))
+      * "Left ⌥ Key" <- "Esc+"
+      * "Key Mappings"
+        * "⌥←"
+          * "Action" <- "Send Escape Sequence"
+          * "Esc+" <- "b"
+        * "⌥→"
+          * "Action" <- "Send Escape Sequence"
+          * "Esc+" <- "f"
