@@ -1,7 +1,4 @@
-dotfiles [themselves](https://github.com/oleksmarkh/settings/tree/master/dotfiles)
-
 # Nginx
-
 ```bash
 $ nginx -t -c /usr/local/etc/nginx/nginx.conf
 
@@ -12,8 +9,5 @@ $ cd /usr/local/Cellar/nginx/<version>/logs/
 $ tail -f error.log
 ```
 
-# iTerm2
-
-* "Preferences -> General -> Preferences"
-  * "Load preferences from a custom folder or URL" <- on, select a folder
-  * "Save changes to folder when iTerm2 quits"
+# Tmux
+* `.tmux.conf` is partially taken from [Making tmux Pretty and Usable - A Guide to Customizing your tmux.conf](http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf)

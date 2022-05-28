@@ -55,7 +55,7 @@ This section is opinionated but tries to turn default UX into a usable state.
   * "Night Shift -> Schedule" <- "Sunset to Sunrise"
 * "Keyboard"
   * "Keyboard"
-    * Press fn to <- Do Nothing  
+    * Press fn to <- Do Nothing
     * "Use F1, F2, etc. keys as standard function keys on external keyboards" <- on
     * "Modifier Keys... -> Caps Lock" <- `^` Control
     * "Shortcuts"
@@ -89,14 +89,17 @@ This section is opinionated but tries to turn default UX into a usable state.
     * "Keep folders on top -> In windows when sorting by name" <- on
 
 ## iTerm2
+
 * "Preferences"
-  * "General -> Selection"
-    * "Applications in terminal may access clipboard" <- on
+  * "General"
+    * "Preferences"
+      * "Load preferences from a custom folder or URL" <- on, select a folder
+      * "Save changes" <- "When Quitting"
+    * "Selection"
+      * "Applications in terminal may access clipboard" <- on
   * "Profiles"
     * "Colors"
-      * "Color Presets..." <- "Dark Background"
-      * "Basic Colors"
-        * "Background" <- `#112233`
+      * "Color Presets..." <- "Dark Background" or download and import [Nord](https://github.com/arcticicestudio/nord-iterm2)
     * "Text"
       * "Change Font" <- "14pt Menlo Regular"
     * "Keys" (see [Use ⌥ ← and ⌥→ to jump forwards / backwards words in iTerm 2, on OS X](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x))
