@@ -13,6 +13,7 @@ $ brew install tmux coreutils tree git python pyenv httpie nginx java
 ## zsh
 * Follow ["Basic Installation"](https://github.com/ohmyzsh/ohmyzsh#basic-installation).
 * Edit a theme to [show full path](https://blaisdell.dev/zsh-full-file-path/).
+* Add `compinit` to `~/.zshrc`.
 
 ## Command Line Tools
 Follow ["How to Install Command Line Tools in Mac OS X (Without Xcode)"](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x).
@@ -27,6 +28,9 @@ $ nvm install node
 
 ## Python
 [`pyenv`](https://github.com/pyenv/pyenv/), [`poetry`](https://python-poetry.org/docs/basic-usage/), [`pycodestyle`](https://pycodestyle.readthedocs.io/en/latest/), [`pytest`](https://pytest.org/en/latest/).
+
+## Rust
+Follow [`rustup`](https://doc.rust-lang.org/book/ch01-01-installation.html) and [`rustup completions`](https://rust-lang.github.io/rustup/installation/index.html#enable-tab-completion-for-bash-fish-zsh-or-powershell) installation instructions.
 
 # setup
 * [GitHub (SSH keys)](https://help.github.com/articles/connecting-to-github-with-ssh)
@@ -88,8 +92,10 @@ This section is opinionated but tries to turn default UX into a usable state.
     * "Show all filename extension" <- on
     * "Keep folders on top -> In windows when sorting by name" <- on
 
-## iTerm2
+## Widgets
+Remove all except "Weather" and "Calendar".
 
+## iTerm2
 * "Preferences"
   * "General"
     * "Preferences"

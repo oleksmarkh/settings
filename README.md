@@ -8,7 +8,7 @@ Permanently *in progress*.
 
 ## How does it look like?
 Some highlights:
-* macOS [utils and tweaks](/env-howto/macos/fresh-setup.md)
+* macOS [utils and tweaks](/env-howto/macos/README.md)
 * a bunch of [dotfiles](/dotfiles/README.md)
 * Sublime Text and VSCode [preferences](/code-editors/README.md)
 
