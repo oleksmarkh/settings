@@ -13,8 +13,6 @@
 # {Name}
 
   [![license][license-image]][license-url]
-  [![deps][deps-image]][deps-url]
-  [![test coverage][test-coverage-image]][test-coverage-url]
   ![code size][code-size-image]
 
 {short description, project goals}
@@ -51,8 +49,4 @@
 
 [license-image]: https://img.shields.io/github/license/oleksmarkh/{name}.svg?style=flat-square
 [license-url]: https://github.com/oleksmarkh/{name}/blob/master/LICENSE
-[deps-image]: https://img.shields.io/david/oleksmarkh/{name}.svg?style=flat-square
-[deps-url]: https://david-dm.org/oleksmarkh/{name}
-[test-coverage-image]: https://img.shields.io/coveralls/github/oleksmarkh/{name}.svg?style=flat-square
-[test-coverage-url]: https://coveralls.io/github/oleksmarkh/{name}
 [code-size-image]: https://img.shields.io/github/languages/code-size/oleksmarkh/{name}.svg?style=flat-square
