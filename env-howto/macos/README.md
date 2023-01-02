@@ -3,10 +3,10 @@
 Follow [`brew`](https://brew.sh) installation instructions.
 
 ## packages
-See [`httpie`](https://httpie.org) (HTTP CLI client), [Postman](https://www.getpostman.com) (HTTP GUI client), [MusicBrainz Picard](https://picard.musicbrainz.org/) (music tagger).
+See [HTTPie](https://httpie.io/) (HTTP CLI client + [web app](https://httpie.io/app)), [Postman](https://www.getpostman.com) (HTTP GUI client), [Beekeeper Studio](https://www.beekeeperstudio.io/) (SQL editor), [MusicBrainz Picard](https://picard.musicbrainz.org/) (music tagger).
 
 ```bash
-$ brew install --cask google-chrome firefox sublime-text visual-studio-code postman android-file-transfer musicbrainz-picard
+$ brew install --cask google-chrome firefox sublime-text visual-studio-code postman beekeeper-studio android-file-transfer musicbrainz-picard
 $ brew install coreutils tree git python pyenv httpie nginx java
 ```
 
