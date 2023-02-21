@@ -1,42 +1,51 @@
-# install
-## Homebrew
+# setup instructions
+## install
+### Homebrew
 Follow [`brew`](https://brew.sh) installation instructions.
 
-## packages
-See [HTTPie](https://httpie.io/) (HTTP CLI client + [web app](https://httpie.io/app)), [Postman](https://www.getpostman.com) (HTTP GUI client), [Beekeeper Studio](https://www.beekeeperstudio.io/) (SQL editor), [MusicBrainz Picard](https://picard.musicbrainz.org/) (music tagger).
+### packages
+See:
+* [HTTPie](https://httpie.io/): HTTP CLI client + [web app](https://httpie.io/app)
+* [Postman](https://www.getpostman.com): HTTP GUI client
+* [Beekeeper Studio](https://www.beekeeperstudio.io/): SQL editor
+* [MusicBrainz Picard](https://picard.musicbrainz.org/): music tagger
 
 ```bash
 $ brew install --cask google-chrome firefox sublime-text visual-studio-code postman beekeeper-studio android-file-transfer musicbrainz-picard
 $ brew install coreutils tree git python pyenv httpie nginx java
 ```
 
-## zsh
+### zsh
 * Follow ["Basic Installation"](https://github.com/ohmyzsh/ohmyzsh#basic-installation).
 * Edit a theme to [show full path](https://blaisdell.dev/zsh-full-file-path/).
 * Run `compinstall` (adds `compinit` to `~/.zshrc`).
 
-## Node
+### Node
 Follow [`nvm`](https://github.com/nvm-sh/nvm) installation instructions.
 
 ```bash
 $ nvm install node
 ```
 
-## Python
+### Python
 [`pyenv`](https://github.com/pyenv/pyenv/), [`poetry`](https://python-poetry.org/docs/basic-usage/), [`pycodestyle`](https://pycodestyle.readthedocs.io/en/latest/), [`pytest`](https://pytest.org/en/latest/).
 
-## Rust
+### Rust
 Follow [`rustup`](https://doc.rust-lang.org/book/ch01-01-installation.html) and [`rustup completions`](https://rust-lang.github.io/rustup/installation/index.html#enable-tab-completion-for-bash-fish-zsh-or-powershell) installation instructions (including `cargo` completions).
 
 ```bash
 $ rustup help completions
 ```
 
-# add SSH keys
+## add SSH keys
 [GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), [GitLab](https://docs.gitlab.com/ee/user/ssh.html).
 
-# tweak
-## System Preferences (Ventura)
+## tweak
+### Firefox
+* `about:config`
+  * `browser.fullscreen.exit_on_escape`: false
+
+### System Preferences (Ventura)
 This section is opinionated but tries to turn default UX into a usable state.
 
 * Sound
@@ -90,7 +99,7 @@ This section is opinionated but tries to turn default UX into a usable state.
   * Look up & data detectors: off
   * Tap to click: on
 
-## Finder
+### Finder
 * Preferences
   * General -> New Finder windows show: Downloads
   * Sidebar: rearrange
@@ -98,5 +107,5 @@ This section is opinionated but tries to turn default UX into a usable state.
     * Show all filename extension: on
     * Keep folders on top -> In windows when sorting by name: on
 
-## Widgets
+### Widgets
 Remove all except Weather and Calendar.
