@@ -40,6 +40,12 @@ $ rustup help completions
 ## add SSH keys
 [GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh), [GitLab](https://docs.gitlab.com/ee/user/ssh.html).
 
+If git asks for a passphrase:
+```bash
+$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+Identity added: /Users/oleksmarkh/.ssh/id_ed25519 (email)
+```
+
 ## tweak
 ### Firefox
 * `about:config`
