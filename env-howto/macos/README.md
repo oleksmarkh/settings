@@ -11,13 +11,12 @@ See:
 * [MusicBrainz Picard](https://picard.musicbrainz.org/): music tagger
 
 ```bash
-$ brew install --cask google-chrome firefox sublime-text visual-studio-code postman beekeeper-studio android-file-transfer musicbrainz-picard
-$ brew install coreutils tree git python pyenv httpie nginx java
+$ brew install --cask google-chrome firefox visual-studio-code postman beekeeper-studio android-file-transfer musicbrainz-picard
+$ brew install coreutils tree git python pyenv httpie
 ```
 
 ### zsh
 * Follow ["Basic Installation"](https://github.com/ohmyzsh/ohmyzsh#basic-installation).
-* Edit a theme to [show full path](https://blaisdell.dev/zsh-full-file-path/).
 * Run `compinstall` (adds `compinit` to `~/.zshrc`).
 
 ### Node
